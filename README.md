@@ -50,7 +50,7 @@ Vue.use(VueFroala)
 ```javascript
 <template>
   <div id="app">
-    <froala :tag="'textarea'" :config="config" v-model="model"></froala>
+    <froala :tag="'textarea'" :config="config" ></froala>
   </div>
 </template>
 
@@ -68,7 +68,6 @@ export default {
           }
         }
       },
-      model: 'Edit Your Content Here!'
     }
   }
 }
